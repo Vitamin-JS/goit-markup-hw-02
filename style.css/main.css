@@ -1,0 +1,21 @@
+/* Основной цвет текста Серый  #757575  */
+/* Второстепенный цвет текста Черный #212121   */
+/* Белый цвет фона NAV  #E5E5E5  */
+/* Белый цвет фона Section  #FFFFFF   */
+/* Серый цвет фона  #F5F4FA  */
+/* Бєкграунд Футера #2F303A   */
+/* Акцент - Голубой цвет #2196F3  */
+
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --nav-bg-color: #e5e5e5;
+  --white-bg-color: #ffffff;
+  --gray-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+  --accent-color-blue: #2196f3;
+}
+
+ul {
+  list-style: none;
+}
