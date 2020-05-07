@@ -25,6 +25,7 @@ body {
 
 .logo {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .logo-blue {
@@ -33,4 +34,11 @@ body {
 
 .contacts {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
+
+.social-links {
+  text-decoration: none;
+}
+
+.our-team;
