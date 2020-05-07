@@ -41,4 +41,10 @@ body {
   text-decoration: none;
 }
 
-.our-team;
+.white-text {
+  color: var(--white-bg-color);
+}
+
+.footer-bg {
+  background-color: var(--footer-bg-color);
+}
