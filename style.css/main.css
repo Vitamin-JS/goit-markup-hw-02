@@ -12,6 +12,7 @@
   --gray-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   --accent-color-blue: #2196f3;
+  --wtah-wdo-bg: rgba(47, 48, 58, 0.8);
 }
 
 ul {
@@ -37,13 +38,15 @@ body {
   color: var(--accent-color-blue);
 }
 
-.focus-text:focus {
+.focus-text:focus,
+.focus-text .white-text:focus {
   color: var(--accent-color-blue);
 }
 
 .contacts {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-style: normal;
 }
 
 .social-links {
@@ -54,8 +57,15 @@ body {
   color: var(--white-bg-color);
 }
 
+.whatWeDo-bg {
+  background-color: var(--wtah-wdo-bg);
+}
 .footer-bg {
   background-color: var(--footer-bg-color);
 }
 
-
+.button {
+  color: var(--white-bg-color);
+  background-color: var(--accent-color-blue);
+  border: none;
+}

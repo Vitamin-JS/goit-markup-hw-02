@@ -4,27 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css/main.css" />
   </head>
   <body>
     <main>
       <!-- Шапка сайта с навигацией -->
       <header>
         <nav>
-          <a href="">
+          <a href="" class="logo focus-text">
             <p lang="en">
-              <b><span>Web</span> Studio</b>
+              <b><span class="logo-blue">Web</span> Studio</b>
             </p>
           </a>
           <ul>
-            <li><a href="/">Студия</a></li>
-            <li><a href="/">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+            <li><a href="./index.html" class="logo hover-text">Студия</a></li>
+            <li><a href="" class="logo hover-text">Портфолио</a></li>
+            <li><a href="" class="logo hover-text">Контакты</a></li>
           </ul>
         </nav>
 
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com"
+            <a href="mailto:info@devstudio.com" class="contacts hover-text"
               ><img
                 src="./images/envelope.svg"
                 alt="e-mail"
@@ -32,7 +33,7 @@
             >
           </li>
           <li>
-            <a href="tel:+380961111111"
+            <a href="tel:+380961111111" class="contacts hover-text"
               ><img src="./images/phone.svg" alt="mobile" />+38 096 111 11 11</a
             >
           </li>
@@ -114,52 +115,68 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer-bg">
       <div>
-        <a href="./index.html">
+        <a href="./index.html" class="logo focus-text">
           <p lang="en">
-            <b><span>Web</span> Studio</b>
+            <b
+              ><span class="logo-blue">Web</span>
+              <span class="white-text">Studio</span>
+            </b>
           </p>
         </a>
         <address>
           <ul>
             <li>
-              <a href="ссылка_на_Goolge_maps"
+              <a
+                href="ссылка_на_Goolge_maps"
+                class="contacts white-text focus-text"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a href="mailto:info@example.com" class="contacts focus-text"
+                >info@example.com</a
+              >
             </li>
             <li>
-              <a href="tel:+380991111111">+38 099 111 11 11</a>
+              <a href="tel:+380991111111" class="contacts focus-text"
+                >+38 099 111 11 11</a
+              >
             </li>
           </ul>
         </address>
       </div>
       <div>
-        <p><b>ПРИСОЕДИНЯЙТЕСЬ</b></p>
+        <p class="white-text"><b>ПРИСОЕДИНЯЙТЕСЬ</b></p>
         <ul>
           <li>
-            <a href="" aria-label=" Ссылка на Instagram">Instagram</a>
+            <a href="" aria-label=" Ссылка на Instagram" class="social-links"
+              >Instagram</a
+            >
           </li>
           <li>
-            <a href="" aria-label=" Ссылка на Twitter">Twitter</a>
+            <a href="" aria-label=" Ссылка на Twitter" class="social-links"
+              >Twitter</a
+            >
           </li>
           <li>
-            <a href="" aria-label=" Ссылка на Facebook">Facebook</a>
+            <a href="" aria-label=" Ссылка на Facebook" class="social-links"
+              >Facebook</a
+            >
           </li>
           <li>
-            <a href="" aria-label=" Ссылка на LinkedIn">LinkedIn</a>
+            <a href="" aria-label=" Ссылка на LinkedIn" class="social-links"
+              >LinkedIn</a
+            >
           </li>
         </ul>
       </div>
       <div>
         <form action="url" name="e-mail">
-          <p><b>ПОДПИШИТЕСЬ НА РАССЫЛКУ</b></p>
-          <input type="email" value="E-mail" name="e-mail" />
-          <input type="button" value="Подписаться" />
-          <img src="./portfolio images/icon-telegram.svg" alt="icon telegram" />
+          <p class="white-text"><b>ПОДПИСАТЬСЯ НА РАССЫЛКУ</b></p>
+          <input type="email" value="E-mail" name="e-mail" class="focus-text" />
+          <input type="button" value="Подписаться" class="button" />
           <!-- <input type="submit" name="" id=""> -->
         </form>
       </div>
