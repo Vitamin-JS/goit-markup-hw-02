@@ -16,6 +16,7 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --accent-color-blue: #2196f3;
   --wtah-we-do-bg: rgba(47, 48, 58, 0.8);
+  --made-by-studentsGoIT: rgba(255, 255, 255, 0.4);
 }
 
 ul {
@@ -60,7 +61,7 @@ body {
 }
 
 /* Стили для  секции hero */
-.hero {
+.hero-title {
   color: var(--white-bg-color);
   font-weight: 700;
   font-size: 44px;
@@ -70,7 +71,7 @@ body {
 }
 
 /* Стиль кнопки героя */
-.footer-bg .button {
+.hero .button {
   height: 50px;
   width: 200px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -163,6 +164,43 @@ h2 {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.input-email {
+  width: 270px;
+  height: 50px;
+  background: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .button {
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.madeByStudents {
+  color: var(--made-by-studentsGoIT);
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.03em;
 }
 
 .hover-text:hover,
