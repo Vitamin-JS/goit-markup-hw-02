@@ -50,7 +50,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02pc;
+  letter-spacing: 0.02em;
 }
 
 /* Стили для  секции hero */
@@ -60,7 +60,7 @@ body {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
-  letter-spacing: 0.06pc;
+  letter-spacing: 0.06em;
 }
 
 /* Стиль кнопки героя */
@@ -73,8 +73,40 @@ body {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  letter-spacing: 0.06pc;
+  letter-spacing: 0.06em;
 }
+
+/* Стили текста секции Преимущества */
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.text-advetades {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Стиль секции Чем мы занимаемся */
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.whatWeDo-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Стили секции Наша команда */
 
 .logo-font-footer {
   font-size: 22px;
