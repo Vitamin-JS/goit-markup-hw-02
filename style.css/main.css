@@ -13,6 +13,7 @@
   --white-bg-color: #ffffff;
   --gray-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --accent-color-blue: #2196f3;
   --wtah-we-do-bg: rgba(47, 48, 58, 0.8);
 }
@@ -51,6 +52,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+/* Цвет контактов в навигации и футере */
+.contacts {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 /* Стили для  секции hero */
@@ -106,10 +112,57 @@ h2 {
   letter-spacing: 0.03em;
 }
 
-/* Стили секции Наша команда */
+.whatWeDo-bg {
+  background-color: var(--wtah-we-do-bg);
+}
 
+/* Стили секции Наша команда */
+.our-team .logo {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.proffesion {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Стили секции Постоянные клиенты */
+.social-links {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+/* Стили Футера */
 .logo-font-footer {
   font-size: 22px;
+}
+
+/* Заголовки белым цветом */
+.white-text {
+  color: var(--white-bg-color);
+}
+
+.address-footer {
+  color: var(--white-bg-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.contacts-footer {
+  color: var(--footer-contacts-color);
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .hover-text:hover,
@@ -122,24 +175,6 @@ h2 {
   color: var(--accent-color-blue);
 }
 
-.contacts {
-  color: var(--primary-text-color);
-  text-decoration: none;
-  font-style: normal;
-}
-
-.social-links {
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-
-.white-text {
-  color: var(--white-bg-color);
-}
-
-.whatWeDo-bg {
-  background-color: var(--wtah-we-do-bg);
-}
 .footer-bg {
   background-color: var(--footer-bg-color);
 }
