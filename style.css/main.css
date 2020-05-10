@@ -4,6 +4,8 @@
 /* Серый цвет фона  #F5F4FA  */
 /* Бєкграунд Футера #2F303A   */
 /* Акцент - Голубой цвет #2196F3  */
+/* Font Raleway */
+/* Font Roboto */
 
 :root {
   --primary-text-color: #757575;
@@ -22,6 +24,8 @@ ul {
 body {
   background-color: var(--white-bg-color);
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
 }
 
 .logo {
@@ -31,6 +35,25 @@ body {
 
 .logo-blue {
   color: var(--accent-color-blue);
+}
+
+.logo-font,
+.logo-font-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03pc;
+}
+/* Шрифт в навигацтт */
+.nav-font {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02pc;
+}
+
+.logo-font-footer {
+  font-size: 22px;
 }
 
 .hover-text:hover,
