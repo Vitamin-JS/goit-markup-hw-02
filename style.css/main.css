@@ -27,16 +27,17 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: normal;
 }
-
+/* Черный шрифт для лого и других тайтлов */
 .logo {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
-
+/* Синий цвет лого */
 .logo-blue {
   color: var(--accent-color-blue);
 }
 
+/* Шрифт лого в навгации и футере */
 .logo-font,
 .logo-font-footer {
   font-family: Raleway, sans-serif;
@@ -44,12 +45,35 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03pc;
 }
-/* Шрифт в навигацтт */
+/* Шрифт в навигации */
 .nav-font {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02pc;
+}
+
+/* Стили для  секции hero */
+.hero {
+  color: var(--white-bg-color);
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06pc;
+}
+
+/* Стиль кнопки героя */
+.footer-bg .button {
+  height: 50px;
+  width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.06pc;
 }
 
 .logo-font-footer {
