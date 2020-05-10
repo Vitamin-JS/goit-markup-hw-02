@@ -1,0 +1,16 @@
+:root {
+  --title-black: #212121;
+  --filter-bg: #f5f4fa;
+  --accent-color-blue: #2196f3;
+  --white-bg-color: #ffffff;
+}
+
+.filer {
+  background-color: var(--filter-bg);
+}
+
+.filer:hover,
+.filer:focus {
+  color: var(--white-bg-color);
+  background-color: var(--accent-color-blue);
+}

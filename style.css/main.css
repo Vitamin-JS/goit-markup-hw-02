@@ -12,7 +12,7 @@
   --gray-bg-color: #f5f4fa;
   --footer-bg-color: #2f303a;
   --accent-color-blue: #2196f3;
-  --wtah-wdo-bg: rgba(47, 48, 58, 0.8);
+  --wtah-we-do-bg: rgba(47, 48, 58, 0.8);
 }
 
 ul {
@@ -51,6 +51,7 @@ body {
 
 .social-links {
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 
 .white-text {
@@ -58,7 +59,7 @@ body {
 }
 
 .whatWeDo-bg {
-  background-color: var(--wtah-wdo-bg);
+  background-color: var(--wtah-we-do-bg);
 }
 .footer-bg {
   background-color: var(--footer-bg-color);
