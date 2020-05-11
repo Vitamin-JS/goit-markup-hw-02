@@ -142,11 +142,14 @@ h2 {
   font-size: 22px;
 }
 
-/* Заголовки белым цветом */
+/* ===============Заголовки белым цветом */
 .white-text {
   color: var(--white-bg-color);
 }
 
+.footer-bg {
+  background-color: var(--footer-bg-color);
+}
 .address-footer {
   color: var(--white-bg-color);
   text-decoration: none;
@@ -203,6 +206,7 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+/* Интерактивные действия */
 .hover-text:hover,
 .hover-text:focus {
   color: var(--accent-color-blue);
@@ -211,10 +215,6 @@ h2 {
 .focus-text:focus,
 .focus-text .white-text:focus {
   color: var(--accent-color-blue);
-}
-
-.footer-bg {
-  background-color: var(--footer-bg-color);
 }
 
 .button {
