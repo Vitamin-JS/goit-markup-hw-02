@@ -3,9 +3,10 @@
   --filter-bg: #f5f4fa;
   --accent-color-blue: #2196f3;
   --white-bg-color: #ffffff;
+  --primary-text-color: #757575;
 }
 
-/* Стли ссылок Фильтр */
+/* Стили ссылок Фильтр */
 .filer {
   padding-left: 22px;
   padding-right: 22px;
@@ -25,16 +26,22 @@
 }
 
 /* Стили секции примеры работ */
-.title  {
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
+.title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .work-type {
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.examples {
+  text-decoration: none;
 }
 
 /* Интерактивные действия */
@@ -44,8 +51,3 @@
   color: var(--white-bg-color);
   background-color: var(--accent-color-blue);
 }
-
-
-
-Добавить  hover и foсus  current
-Отвалидировать и сдать
