@@ -31,6 +31,7 @@ html {
 
 ul {
   list-style: none;
+  margin: 0;
 }
 
 body {
@@ -103,12 +104,17 @@ body {
 
 /* Стили для  секции hero */
 .hero-title {
+  margin: 0;
   color: var(--white-bg-color);
   font-weight: 700;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.hero {
+  text-align: center;
 }
 
 /* Стиль кнопки героя */
