@@ -138,7 +138,7 @@ body {
 }
 
 .hero {
-  text-align: center;
+  height: 600px;
 }
 
 /* Стиль кнопки героя */
@@ -157,7 +157,6 @@ body {
 
 /* Отступы блока Преимущества */
 .advatn {
-  display: inline-block;
   margin: 0;
   padding: 0;
 }
@@ -199,6 +198,12 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+.whatWeDo .logo {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .whatWeDo-text {
   font-weight: bold;
   font-size: 14px;
@@ -206,9 +211,24 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
 }
-
+/* Бэкграунд для белого текста - потом удалить */
 .whatWeDo-bg {
   background-color: var(--wtah-we-do-bg);
+}
+
+/* Отступы UL блока Чем мы занимаемся */
+.whatWeDo-ul {
+  margin: 0;
+  padding-left: 0;
+}
+/* Размеры списка работ */
+.whatWeDo-list {
+  display: inline-block;
+  width: cal(1140 / 3); /* (1200px - 60px) */
+}
+
+.whatWeDo-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Стили секции Наша команда */
