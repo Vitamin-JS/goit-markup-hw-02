@@ -56,6 +56,12 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
+
+/* header {
+  height: 80px;
+  display: inline;
+} */
+
 /* Синий цвет лого */
 .logo-blue {
   color: var(--accent-color-blue);
@@ -87,6 +93,15 @@ body {
 .contacts.nav-font {
   display: inline-block;
   margin-top: 32px;
+}
+
+.nav-contacts > li:first-child {
+  margin-right: 20px;
+}
+
+.nav-contacts {
+  margin-left: auto;
+  padding: 0;
 }
 
 /* Шрифт в навигации */
@@ -140,18 +155,40 @@ body {
   margin-top: 46px;
 }
 
+/* Отступы блока Преимущества */
+.advatn {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.advant-list {
+  display: inline-block;
+  margin: 40px 0 0;
+  width: calc((1200px - 90px) / 4);
+}
+
+.advant-list:not(:last-child) {
+  margin-right: 26px;
+}
+
 /* Стили текста секции Преимущества */
 .title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-right: auto;
 }
 
-.text-advetades {
+.text-advetages {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 
 /* Стиль секции Чем мы занимаемся */
